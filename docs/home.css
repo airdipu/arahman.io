@@ -81,8 +81,8 @@
   flex-shrink: 0;
 }
 .app-component-root-class-name {
-  right: 65px;
-  bottom: -102px;
+  top: 35px;
+  right: 46px;
   position: absolute;
 }
 @media(max-width: 991px) {
@@ -133,19 +133,6 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: var(--dl-color-gray-900);
 }
-.home-accordion-content {
-  display: flex;
-  overflow: hidden;
-  max-height: 0;
-  transition: 0.3s ease-in-out;
-  align-items: center;
-  flex-direction: column;
-}
-.home-nav {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 .home-banner {
   top: 188px;
   right: 23px;
@@ -189,7 +176,7 @@
   justify-content: flex-start;
 }
 .home-feature-card {
-  top: 526px;
+  top: 532px;
   left: 115px;
   width: 586px;
   height: 175px;
@@ -212,9 +199,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
-  .home-nav {
-    padding-top: 16px;
-  }
   .home-banner {
     flex-direction: column;
   }

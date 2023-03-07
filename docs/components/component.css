@@ -10,8 +10,8 @@
   flex-shrink: 0;
 }
 .component-root-class-name {
-  right: 65px;
-  bottom: -102px;
+  top: 35px;
+  right: 46px;
   position: absolute;
 }
 @media(max-width: 991px) {

@@ -101,25 +101,6 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: var(--dl-color-gray-900);
 }
-.conferences-accordion-content {
-  display: flex;
-  overflow: hidden;
-  max-height: 0;
-  transition: 0.3s ease-in-out;
-  align-items: center;
-  flex-direction: column;
-}
-.conferences-nav {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.conferences-navlink {
-  display: contents;
-}
-.conferences-component1 {
-  text-decoration: none;
-}
 .conferences-container1 {
   width: 1000px;
   height: 553px;
@@ -131,11 +112,6 @@
 .conferences-text04 {
   font-style: normal;
   font-weight: 600;
-}
-@media(max-width: 991px) {
-  .conferences-nav {
-    padding-top: 16px;
-  }
 }
 @media(max-width: 767px) {
   .conferences-header {
