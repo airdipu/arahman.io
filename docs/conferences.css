@@ -5,19 +5,31 @@
   flex-direction: row;
 }
 .navigation-links-home {
-  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-publications {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-conferences {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-teaching {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 
 
@@ -89,19 +101,6 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: var(--dl-color-gray-900);
 }
-.conferences-nav {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-}
-.conferences-accordion-header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.conferences-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  display: none;
-}
 .conferences-accordion-content {
   display: flex;
   overflow: hidden;
@@ -110,7 +109,7 @@
   align-items: center;
   flex-direction: column;
 }
-.conferences-nav1 {
+.conferences-nav {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -134,7 +133,7 @@
   font-weight: 600;
 }
 @media(max-width: 991px) {
-  .conferences-nav1 {
+  .conferences-nav {
     padding-top: 16px;
   }
 }
@@ -146,12 +145,6 @@
   .conferences-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .conferences-nav {
-    display: none;
-  }
-  .conferences-icon {
-    display: flex;
   }
   .conferences-container1 {
     flex-direction: column;

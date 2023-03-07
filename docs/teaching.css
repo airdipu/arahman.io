@@ -5,19 +5,31 @@
   flex-direction: row;
 }
 .navigation-links-home {
-  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-publications {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-conferences {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-teaching {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 
 

@@ -5,19 +5,31 @@
   flex-direction: row;
 }
 .navigation-links-home {
-  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-publications {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-conferences {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 .navigation-links-teaching {
+  font-style: normal;
+  font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: underline none;
 }
 
 
@@ -63,7 +75,9 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
+  padding-top: var(--dl-space-space-twounits);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
 .publications-header {
@@ -89,19 +103,6 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: var(--dl-color-gray-900);
 }
-.publications-nav {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-}
-.publications-accordion-header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.publications-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  display: none;
-}
 .publications-accordion-content {
   display: flex;
   overflow: hidden;
@@ -110,7 +111,7 @@
   align-items: center;
   flex-direction: column;
 }
-.publications-nav1 {
+.publications-nav {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -122,8 +123,8 @@
   text-decoration: none;
 }
 .publications-container1 {
-  width: 1046px;
-  height: 528px;
+  width: 1013px;
+  height: 603px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -134,7 +135,7 @@
   font-weight: 600;
 }
 @media(max-width: 991px) {
-  .publications-nav1 {
+  .publications-nav {
     padding-top: 16px;
   }
 }
@@ -146,12 +147,6 @@
   .publications-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .publications-nav {
-    display: none;
-  }
-  .publications-icon {
-    display: flex;
   }
   .publications-container1 {
     flex-direction: column;

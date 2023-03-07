@@ -1,0 +1,28 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-image {
+  width: 300px;
+  height: 376px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.component-root-class-name {
+  right: 65px;
+  bottom: -102px;
+  position: absolute;
+}
+@media(max-width: 991px) {
+  .component-image {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+}
+@media(max-width: 479px) {
+  .component-image {
+    width: var(--dl-size-size-xlarge);
+    height: var(--dl-size-size-xlarge);
+  }
+}
