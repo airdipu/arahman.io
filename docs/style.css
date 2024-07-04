@@ -109,7 +109,7 @@ li:last-child {
   background: #2c3e50;
   color: #fff;
   text-align: center;
-  padding: 0.3rem 0; /* Adjusted padding */
+  padding: 0.1rem 0; /* Adjusted padding */
   position: fixed;
   width: 100%;
   bottom: 0;
