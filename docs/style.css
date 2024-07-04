@@ -1,275 +1,275 @@
 /* General styles */
 body {
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 a {
-  color: #3498db;
-  text-decoration: none;
-  transition: color 0.3s;
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 a:hover {
-  color: #2980b9;
+    color: #2980b9;
 }
 
 /* Container */
 .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Header styles */
 .header {
-  background: #2c3e50;
-  padding: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+    background: #2c3e50;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navigation a {
-  color: #ecf0f1;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  transition: background 0.3s;
+    color: #ecf0f1;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
 }
 
 .navigation a:hover {
-  background: #34495e;
-  border-radius: 5px;
+    background: #34495e;
+    border-radius: 5px;
 }
 
 /* Home section */
 .home {
-  background: url('public/playground_assets/bg.jpg') no-repeat center center/cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  padding: 0 2rem;
-  margin-top: 60px;
+    background: url('public/playground_assets/bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 60px;
 }
 
 .home-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  animation: fadeIn 2s ease-in-out;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .home p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin-bottom: 2rem;
-  animation: fadeIn 2s ease-in-out 0.5s;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    animation: fadeIn 2s ease-in-out 0.5s;
 }
 
 .home-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  animation: fadeIn 2s ease-in-out 1s;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: fadeIn 2s ease-in-out 1s;
 }
 
 .home-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* About section */
 .about {
-  padding: 2rem 0; /* Reduced padding */
-  background: #ecf0f1;
-  animation: fadeInUp 2s ease-in-out;
+    padding: 2rem 0; /* Reduced padding */
+    background: #ecf0f1;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 .about h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .about p {
-  font-size: 1.1rem;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Research section */
 .research {
-  padding: 2rem 0; /* Reduced padding */
-  background: #fff;
-  animation: fadeInUp 2s ease-in-out 0.5s;
+    padding: 2rem 0; /* Reduced padding */
+    background: #fff;
+    animation: fadeInUp 2s ease-in-out 0.5s;
 }
 
 .research h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .research ul {
-  list-style: none;
-  padding: 0;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .research li {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Publications section */
 .publications {
-  padding: 2rem 0; /* Reduced padding */
-  background: #ecf0f1;
-  animation: fadeInUp 2s ease-in-out 1s;
+    padding: 2rem 0; /* Reduced padding */
+    background: #ecf0f1;
+    animation: fadeInUp 2s ease-in-out 1s;
 }
 
 .publications h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .publications ul {
-  list-style: none;
-  padding: 0;
-  max-width: 800px;
-  margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .publications li {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 .publications a {
-  color: #3498db;
+    color: #3498db;
 }
 
 /* Conferences section */
 .conferences {
-  padding: 2rem 0; /* Reduced padding */
-  background: #fff;
-  animation: fadeInUp 2s ease-in-out 1.5s;
+    padding: 2rem 0; /* Reduced padding */
+    background: #fff;
+    animation: fadeInUp 2s ease-in-out 1.5s;
 }
 
 .conferences h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .conferences ul {
-  list-style: none;
-  padding: 0;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .conferences li {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Teaching section */
 .teaching {
-  padding: 2rem 0; /* Reduced padding */
-  background: #ecf0f1;
-  animation: fadeInUp 2s ease-in-out 2s;
+    padding: 2rem 0; /* Reduced padding */
+    background: #ecf0f1;
+    animation: fadeInUp 2s ease-in-out 2s;
 }
 
 .teaching h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .teaching p {
-  font-size: 1.1rem;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Contact section */
 .contact {
-  padding: 6rem 0 2rem 0; /* Increased padding at the top and reduced at the bottom */
-  background: #fff;
-  animation: fadeInUp 2s ease-in-out 2.5s;
+    padding: 6rem 0 2rem 0; /* Increased padding at the top and reduced at the bottom */
+    background: #fff;
+    animation: fadeInUp 2s ease-in-out 2.5s;
 }
 
 .contact h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .contact p {
-  font-size: 1.1rem;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact a {
-  color: #3498db;
+    color: #3498db;
 }
 
 /* Footer */
 .footer {
-  background: #2c3e50;
-  color: #ecf0f1;
-  text-align: center;
-  padding: 0.5rem 0; /* Reduced padding */
+    background: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 0.5rem 0; /* Reduced padding */
 }
 
 /* Animations */
 @keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInUp {
-  from {
-      opacity: 0;
-      transform: translateY(20px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
