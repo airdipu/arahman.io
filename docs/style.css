@@ -116,10 +116,10 @@ li:last-child {
   color: #fff;
   text-align: center;
   padding: 0.5rem 0; /* Adjusted padding */
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 .container {
@@ -149,7 +149,7 @@ li:last-child {
   text-decoration: none;
   border: 0.5px solid #fff;
   padding: 0.5rem 1rem;
-  border-radius: 3px;
+  border-radius: 0.5px;
   transition: background-color 0.3s, color 0.3s;
 }
 
