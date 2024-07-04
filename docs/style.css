@@ -28,7 +28,15 @@ body {
   border-radius: 5px;
 }
 
-.banner {
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.home {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,24 +44,21 @@ body {
   background-color: #eee;
 }
 
-.banner-content {
+.home-content {
   max-width: 60%;
 }
 
-.banner-image img {
+.home-image img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.contact {
-  padding: 20px;
+.about, .research, .publications, .conferences, .teaching, .contact {
   background-color: #fff;
-  border-top: 1px solid #ddd;
-}
-
-.contact h2 {
-  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact address {
