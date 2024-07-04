@@ -82,7 +82,7 @@ a:hover {
 
 /* Section styles */
 section {
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0; /* Reduced bottom padding */
 }
 
 h1, h2 {
@@ -109,7 +109,7 @@ li:last-child {
   background: #2c3e50;
   color: #fff;
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 0.3rem 0; /* Adjusted padding */
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -118,23 +118,23 @@ li:last-child {
 /* Responsive styles */
 @media (max-width: 768px) {
   .home-content {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .home-text {
-      padding-right: 0;
-      text-align: center;
+    padding-right: 0;
+    text-align: center;
   }
 
   .home-image {
-      margin-top: 2rem;
+    margin-top: 2rem;
   }
 
   .navigation {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .navigation a {
-      margin: 0.5rem 0;
+    margin: 0.5rem 0;
   }
 }
