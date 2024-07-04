@@ -130,17 +130,17 @@ li:last-child {
 
 /* Social links */
 .social-links {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .social-links a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 1rem;
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing between icons */
 }
 
-.social-links a:hover {
-  text-decoration: underline;
+.social-icon {
+  width: 30px; /* Adjust icon size as needed */
+  height: auto;
 }
 
 /* CV download link */
