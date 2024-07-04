@@ -1,103 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Studious Jubilant Albatross</title>
     <meta property="og:title" content="Studious Jubilant Albatross" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <!--This is the head section-->
-    <!-- <style> ... </style> -->
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./home.css" rel="stylesheet" />
-
-      <article class="home-container">
-        <header data-role="Accordion" class="home-header">
-          <div class="home-separator"></div>
-          <nav class="navigation-links-nav navigation-links-root-class-name19">
-            <a href="index.html" class="navigation-links-home">
-              <span>HOME</span>
-            </a>
-            <a href="publications.html" class="navigation-links-publications">
-              <span>PUBLICATIONS</span>
-            </a>
-            <a href="conferences.html" class="navigation-links-conferences">
-              <span>CONFERENCES</span>
-            </a>
-            <a href="teaching.html" class="navigation-links-teaching">
-              <span>TEACHING</span>
-            </a>
-          </nav>
-        </header>
-        <div class="home-banner">
-          <div class="home-container1">
-            <h1 class="home-text">ABDUR RAHMAN</h1>
-            <span class="home-text01">
-              As a prospective Mathematician and Statistician, I possess over 5
-              years of experience as a research assistant in Data Science and
-              Statistical data modeling. With a proven track record of
-              results-oriented and self-motivated work, I am well-equipped to
-              contribute to innovative research in the field of Mathematics.
-            </span>
-            <div class="home-container2"></div>
-          </div>
-          <div class="app-component-container app-component-root-class-name">
-            <img
-              alt="image"
-              src="public/playground_assets/da29c4dc-400h.jpg"
-              class="app-component-image"
-            />
-          </div>
-        </div>
-        <div class="home-feature-card">
-          <div class="home-container3">
-            <h2 class="home-text02">Contact information</h2>
-            <span>
-              <span>Väinö Auerin katu 1 F 18</span>
-              <br />
-              <span>Helsinki 00560, Finland</span>
-              <br />
-              <span>Email: abdur.rahman@helsinki.fi</span>
-              <br />
-              <span>Phone: +358 (0)41 729 3434</span>
-            </span>
-          </div>
-        </div>
-      </article>
-    </div>
-    <script
-      data-section-id="header"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-  </body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="publications.html">PUBLICATIONS</a>
+            <a href="conferences.html">CONFERENCES</a>
+            <a href="teaching.html">TEACHING</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h1>ABDUR RAHMAN</h1>
+                <p>As a prospective Mathematician and Statistician, I possess over 5 years of experience as a research assistant in Data Science and Statistical data modeling. With a proven track record of results-oriented and self-motivated work, I am well-equipped to contribute to innovative research in the field of Mathematics.</p>
+            </div>
+            <div class="banner-image">
+                <img src="public/playground_assets/da29c4dc-400h.jpg" alt="Abdur Rahman">
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact information</h2>
+            <address>
+                <p>Väinö Auerin katu 1 F 18</p>
+                <p>Helsinki 00560, Finland</p>
+                <p>Email: <a href="mailto:abdur.rahman@helsinki.fi">abdur.rahman@helsinki.fi</a></p>
+                <p>Phone: <a href="tel:+358417293434">+358 (0)41 729 3434</a></p>
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Abdur Rahman. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+</body>
 </html>
