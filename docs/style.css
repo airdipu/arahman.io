@@ -104,15 +104,22 @@ li:last-child {
   border-bottom: none;
 }
 
+/* Contact section */
+.contact {
+  padding-bottom: 4rem; /* Increase space below contact section */
+  background: #fff;
+}
+
 /* Footer styles */
 .footer {
   background: #2c3e50;
   color: #fff;
   text-align: center;
-  padding: 2rem 0; /* Adjusted padding */
+  padding: 0.5rem 0; /* Adjusted padding */
   position: fixed;
   width: 100%;
   bottom: 0;
+  margin-top: 4rem;
 }
 
 /* Responsive styles */
